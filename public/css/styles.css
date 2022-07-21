@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+   
+}
+
+
+/* navigation area codes */
+
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 15%;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header li {
+    padding: 20px;
+}
+header li a {
+    text-decoration: none;
+    color: black;
+}
+#brand{
+    margin-right: auto;
+    color: #008E0E;
+    font-family: 'Joti One';
+}
+
+
+/* introduction area codes  */
+
+.intro{
+    padding: 5% 10%;
+}
+.intro ul{
+    display: flex;
+    list-style-type: none;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+}
+.intro li {
+    padding: 2% 3%;
+    align-items: center;
+}
+.intro h1{
+    letter-spacing: 4px;
+    line-height: 60px;
+    padding: 0% 0;
+    color: #008E0E;
+    font-family: 'Joti One';
+    font-size: 3.5rem
+}
+.intro p {
+    font-size: 1.5rem;
+    padding: 0 0 4% 0;
+}
+.intro button{
+    background-color: #008E0E;
+    border: 0;
+    border-radius: 5%;
+    height:30px ;
+    width:130px ;
+    cursor: pointer;
+}
+.intro a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.intro img{
+    width: 40vw;
+}
+
+@media only screen and (max-width:1000px) {
+    body{
+        align-items: center;
+    }
+    .intro ul{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .intro img{
+        width: 50vw;
+    }
+    
+}
+
+/* css codes for know our customers area */
+
+.box{
+    background-color: #008E0E;
+    padding: 2% 3%;
+}
+.box h1{
+    font-family: 'Joti One';
+    color: #D9D9D9;
+    padding: 0 0 1% 0;
+}
+.box p{
+    color: #D9D9D9;
+    padding: 1% 5%;
+    font-size: 1.5rem;
+}
+.box button{
+    /* padding: 2%; */
+    margin-left: 65px;
+
+    border: 0;
+    border-radius: 5%;
+    height:30px ;
+    width:130px ;
+    cursor: pointer;
+
+}
+.box a{
+    text-decoration: none;
+    padding: 0;
+    color: #008E0E
+}
+@media only screen and (max-width:1000px) {
+    .box{
+        text-align: center;
+    }
+    .box button{
+        margin-right: 65px;
+    }
+}
+
+/* form and become our customer section */
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+    flex-wrap: wrap;
+}
+.box2 form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.box2 h1{
+    font-family: 'Joti One';
+    color: #008E0E;
+}
+.box2 p{
+    padding: 3% 7%;
+    font-size: 1.5rem;
+    width: 50vw;
+}
+.transfer{
+    
+    /* margin-left: 55px; */
+    border: 0;
+    border-radius: 2vw;
+    height:30px ;
+    width:130px ;
+    cursor: pointer;
+    background-color: #008E0E;
+}
+.box2 a{
+    
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+.box2 form{
+    border: solid #008E0E;
+    margin-right:10vw;
+    width: 45vh;
+    height: 45vh;
+    padding: 5%;
+}
+.box2 label{
+    font-size: 1.5rem;
+}
+.box2 input{
+    height: 10vh;
+}
+.submit{
+    width: 12vh;
+    height: 5vh;
+    border-radius: 2vw;
+    border: none;
+    margin-top: 1em;
+    background-color: #008E0E;
+    color: #D9D9D9;
+}
+
+@media only screen and (max-width:1000px){
+    .box2{
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        padding: 2% 0 5% 0%;
+        justify-content: center;
+    }
+}
+
+/* footer section  */
+footer{
+    width: 100%;
+    background-color: #008E0E;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0 0 0;
+}
+footer h1{
+    align-items: center;
+    color: #D9D9D9;
+
+}
+.social{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding: 2% 0% 2% 0;
+    text-decoration: none;
+}
+.social a{
+    text-decoration: none;
+    
+}
+.fa{
+    font-size: 30px;
+    color: #D9D9D9;
+}
+
+
+
+/* customers table  */
+
+
+
+
+.customer-table{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.5));
+    
+    
+}
+.customer-table ul{
+    list-style-type: none;
+    padding: 2% 5%;
+    width: 350px;
+    color: #ffffff;
+    
+    
+}
+.customer-table li{
+    font-size: 20px;
+    background-color: #008E0E;
+    padding: 2%  10% 4% 10%;
+    
+}
+.customer-table a{
+    background-color: #ffffff;
+    padding: 3%;
+    color: black;
+    border-radius: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.customer-table ul img{
+    width: 350px;
+}
+
+
+
+/* transfer page  */
+
+
+.Particular-customer{
+    padding: 5% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.box4{
+    width: fit-content;
+    color: #ffffff;
+    background-color: #008E0E;
+    padding: 3%;
+    border-radius: 1rem;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.5));
+}
+.box4 h1{
+    padding: 0 0 7% 0;
+}
+.box4 h2{
+    padding: 0 0 2% 0;
+}
+.box4 h3{
+    font-size: 2rem;
+    padding: 4% 0 0 0;
+}
+.box4 input{
+    height: 30px;
+    width:160px ;
+    padding: 0 2% 0 0;
+}
+.box4 a{
+    background-color: #ffffff;
+    color: black;
+    margin: 0 0 0 4%;
+    padding: 1%;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
